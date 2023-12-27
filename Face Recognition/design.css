@@ -1,0 +1,174 @@
+body{
+    display: block;
+    background: rgb(12, 12, 12);
+}
+.head{
+    top: 0;
+    width:95%;
+    height: 35vh;
+    background-image: url(Touchless\ Face\ Recognition\ Attendance\ System\ _\ Rydot\ Infotech.jpg);
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-left: 3vw;
+}
+
+.head h1{
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 6rem;
+    text-align: center;
+    
+}
+
+.body h3{
+    font-size: 2rem;
+    color: rgb(71, 0, 202);
+}
+
+.body{
+    margin-top: 5vh;
+    
+    text-align: center;
+    justify-content: center;
+    
+}
+
+button{
+    width: 20vw;
+    height: 15vh;
+    padding: 2%;
+    margin-left: 2vw;
+    /* background-color: #BBA5B0; */
+    border: transparent;
+    color: white;
+}
+
+#mood_lens_button{
+    background:rgb(66, 3, 212)
+    
+
+}
+#face_tag_button{
+    background:rgb(66, 3, 212)}
+button a{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+button p{
+    display:none;
+    font-size: 16px;
+    
+}
+button:hover{
+    height: 20vh;
+    transition: ease 1s;
+    cursor: pointer;
+}
+
+
+.moodLens{
+    display: none;
+    background-color:rgb(62, 15, 231);
+    margin-top: 32vh;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.moodLens canvas{
+    position: absolute;
+    left: 30vw;   
+}
+
+.moodLens video{
+    width: 100%;
+    
+}
+
+.moodLensHeading{
+    width: 100%;
+    height: 25vh;
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+.moodLensHeading h2{
+    font-size: 3.5rem;
+}
+
+.moodLensHeading h4{
+    font-size: 2rem;
+}
+
+.faceTag{
+    display: none;
+    background-color:rgb(62, 15, 231);
+    margin-top: 32vh;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.faceTag input{
+    margin-top: 3vh;
+    float: left;
+    margin-left: 2vw;
+    background-color: rgb(249, 245, 245);
+    height: 5vh;
+    font-size: 22px;
+    border-radius: 50px;
+    border: black 1px solid;
+    width: 15vw;
+
+}
+
+::-webkit-file-upload-button{
+    outline:none;
+    padding: 1%;
+    border: none;
+    border-radius: 50px ;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+
+}
+
+.faceTag input:hover{
+    box-shadow: 5px 5px 5px 1px #7684a9;
+    transform: scale(1.02);
+    cursor: pointer;
+
+}
+
+.faceTagHeading{
+    width: 100%;
+    height: 25vh;
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.faceTagHeading h2{
+    font-size: 3.5rem;
+}
+
+.faceTagHeading h4{
+    font-size: 2rem;
+}
+
+
+
+.faceTag canvas{
+    position:absolute;
+    left: 33vw;
+}
